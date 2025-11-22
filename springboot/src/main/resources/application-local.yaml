@@ -8,7 +8,7 @@ spring:
       uri: mongodb://localhost:27017/anajulia?serverSelectionTimeoutMs=15000&connectTimeoutMS=15000
 
 server:
-  port: 8082
+  port: 8081
 
 secret:
-  key: "anajulia!@#2025"
+  key: "o36pEukmNV48mJkKkRt8GoYtfbXfszupz6Zrq6jPAEC"
