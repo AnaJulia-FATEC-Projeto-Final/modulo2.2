@@ -11,14 +11,14 @@ services:
     ports:
       - "27017:27017"
 
-  modulo2.2:
-    image: anajulia/modulo2.2:latest
-    hostname: modulo2.2
-    container_name: modulo2.2
-    ports:
-      - "8081:8081"
-    environment:
-      MONGODB_URI: mongodb://mongodb:27017/anajulia?serverSelectionTimeoutMs=15000&connectTimeoutMS=15000
-      SECRET_KEY: "o36pEukmNV48mJkKkRt8GoYtfbXfszupz6Zrq6jPAEC"
-    depends_on:
-      - mongodb
+#  modulo2.2:
+#    image: anajulia/modulo2.2:latest
+#    hostname: modulo2.2
+#    container_name: modulo2.2
+#    ports:
+#      - "8081:8081"
+#    environment:
+#      MONGODB_URI: mongodb://mongodb:27017/anajulia?serverSelectionTimeoutMs=15000&connectTimeoutMS=15000
+#      SECRET_KEY: "o36pEukmNV48mJkKkRt8GoYtfbXfszupz6Zrq6jPAEC"
+#    depends_on:
+#      - mongodb
