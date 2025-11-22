@@ -33,4 +33,4 @@ docker build -t anajulia/modulo2.2:latest .
 docker-compose up -d
 ```
 
-> A API Rest fica na porta 8081 do Localhost.
+> A API Login fica na porta 8081 do Localhost.
