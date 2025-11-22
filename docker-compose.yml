@@ -20,5 +20,4 @@ services:
 #    environment:
 #      MONGODB_URI: mongodb://mongodb:27017/anajulia?serverSelectionTimeoutMs=15000&connectTimeoutMS=15000
 #    depends_on:
-#      mongodb:
-#        condition: service_started
+#      - mongodb
