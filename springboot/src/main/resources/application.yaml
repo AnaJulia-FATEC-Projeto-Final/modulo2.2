@@ -11,4 +11,4 @@ server:
   port: 8081
 
 secret:
-  key: "${SECRET_KEY}"
+  key: ${SECRET_KEY}
