@@ -11,8 +11,8 @@ public class UsuarioControladorAdaptador {
     public static Usuario cast(LoginRequisicao request) {
         return new Usuario(
                 UUID.randomUUID().toString(),
-                request.username(),
-                request.password()
+                request.usuario(),
+                request.senha()
         );
     }
 }

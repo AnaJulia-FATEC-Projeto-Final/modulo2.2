@@ -5,5 +5,5 @@ import com.anajulia.entidades.Usuario;
 public interface UsuarioRepositorio {
     Usuario salvar(Usuario usuario);
 
-    Usuario procurarPorUsuario(String usuario);
+    Usuario procurarPorUsuario(String usuarioString);
 }
