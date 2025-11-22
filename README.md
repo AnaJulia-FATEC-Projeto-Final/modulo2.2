@@ -2,7 +2,7 @@
 
 > Projeto desenvolvido por Ana Julia Lima de Oliveira como uma API de Login.
 
-> Esta aplicação faz parte do módulo 2.2 do projeto de Programação Multiplataforma da FATEC.
+> Esta aplicação faz parte do módulo 2 do projeto de Programação Multiplataforma da FATEC.
 > Atua em conjunto com o Gateway desenvolvido no módulo 2.1.
 
 ---
