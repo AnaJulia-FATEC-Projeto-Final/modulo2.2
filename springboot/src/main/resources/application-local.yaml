@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: modulo2.2
+
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: mongodb://localhost:27017/anajulia?serverSelectionTimeoutMs=15000&connectTimeoutMS=15000
+
+server:
+  port: 8082

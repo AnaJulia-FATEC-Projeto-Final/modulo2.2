@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: modulo2.2
+
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: ${MONGODB_URI}
+
+server:
+  port: 8081
