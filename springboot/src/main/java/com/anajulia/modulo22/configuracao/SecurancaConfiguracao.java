@@ -46,7 +46,7 @@ public class SecurancaConfiguracao {
                         SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(
-                                "/anajulia/modulo2.2/login/**"
+                                "/anajulia/modulo2.2/v1/login/**"
                         )
                         .permitAll()
                         .anyRequest()
