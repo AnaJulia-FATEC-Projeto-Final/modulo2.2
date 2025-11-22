@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/anajulia/v1")
+@RequestMapping("/anajulia/modulo2.2/v1")
 public class LoginControlador {
     private final TokenSeguranca tokenSecurity;
 
@@ -20,7 +20,7 @@ public class LoginControlador {
     }
 
     @ResponseStatus(HttpStatus.OK)
-    @PostMapping("/modulo2.2/login")
+    @PostMapping("/login")
     public LoginResposta login(@RequestBody LoginRequisicao request) {
         Token token = tokenSecurity.generateToken(UsuarioControladorAdaptador.cast(request));
         return new LoginResposta(token.value());
