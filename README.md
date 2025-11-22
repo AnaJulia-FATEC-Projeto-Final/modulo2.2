@@ -1,4 +1,4 @@
-# Projeto Final de Programação Multiplataforma - Módulo 1
+# Projeto Final de Programação Multiplataforma - Módulo 2.2 - Login
 
 > Projeto desenvolvido por Ana Julia Lima de Oliveira como uma API de Login.
 
