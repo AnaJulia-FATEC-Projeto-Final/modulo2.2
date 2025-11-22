@@ -7,7 +7,7 @@
     </option>
     <option name="MAIN_CLASS_NAME" value="com.anajulia.modulo22.Application" />
     <module name="springboot" />
-    <option name="PROGRAM_PARAMETERS" value="-Dspring.profiles.active=local" />
+    <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
