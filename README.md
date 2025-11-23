@@ -2,7 +2,7 @@
 
 > Projeto desenvolvido por Ana Julia Lima de Oliveira como uma API de Login.
 
-> Esta aplicação faz parte do módulo 2.2 do projeto de Programação Multiplataforma da FATEC.
+> Esta aplicação faz parte do módulo 2 do projeto de Programação Multiplataforma da FATEC.
 > Atua em conjunto com o Gateway desenvolvido no módulo 2.1.
 
 ---
@@ -33,4 +33,4 @@ docker build -t anajulia/modulo2.2:latest .
 docker-compose up -d
 ```
 
-> A API Rest fica na porta 8081 do Localhost.
+> A API Login fica na porta 8081 do Localhost.
